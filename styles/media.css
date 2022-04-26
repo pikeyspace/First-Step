@@ -1,0 +1,181 @@
+    @media(max-width: 1275px) {}
+    
+    @media(max-width: 1130px) {
+        .logo {
+            display: block;
+        }
+        .header-nav {
+            display: none;
+        }
+        .media-menu {
+            display: block;
+        }
+        .tab-item__typeOfPracticums {
+            flex-direction: column-reverse;
+            justify-content: center;
+        }
+        .tab-item__content-name {
+            margin: 0 auto 20px;
+        }
+        .tab-item__typeOfPracticums-inner {
+            justify-content: center;
+            max-width: 100%;
+        }
+        .tab-list {
+            margin-bottom: 30px;
+        }
+        .freePracticums {
+            padding: 50px 0;
+        }
+        .slick-list {
+            max-width: 70%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        .slick-next {
+            right: 70px;
+            z-index: 90;
+        }
+        .slick-prev {
+            left: 70px;
+            z-index: 90;
+        }
+    }
+    
+    @media(max-width: 950px) {
+        .tab-item__content {
+            max-width: 100%;
+        }
+        .tab-item__content+.tab-item__content {
+            margin-left: 0;
+        }
+        .big-tab-item {
+            width: 100% !important;
+        }
+        .tab-item-block {
+            justify-content: center;
+        }
+        .tab-item__lavel-row.gray.big {
+            display: flex;
+            flex-direction: column;
+        }
+        .tab-item__lavel-row.d-top {
+            display: none;
+        }
+        .tab-item__lavel-row.media {
+            display: block;
+        }
+        .advantages-text {
+            font-size: 60px;
+            line-height: 50px;
+        }
+        .advantages-text span {
+            font-size: 30px;
+        }
+        .advantages-content:last-child {
+            justify-content: center;
+        }
+        .advantages-content__item:last-child {
+            display: flex;
+            justify-content: left;
+            align-items: center;
+            flex-direction: column;
+        }
+        .advantages-text.small {
+            margin-bottom: 30px;
+            width: 100%;
+            justify-content: space-between;
+            text-align: right;
+        }
+        .advantages-text.small+.advantages-text.small {
+            margin-left: 0;
+        }
+        .microsoft-inner {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .microsoft-inner__logo {
+            margin-bottom: 50px;
+        }
+        .who-we-need-content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    @media(max-width: 850px) {
+        .request-inner {
+            flex-wrap: wrap-reverse;
+            justify-content: center;
+        }
+        .request-title {
+            text-align: center;
+        }
+        .request-block:first-child {
+            text-align: center;
+            width: 90%;
+        }
+        .request-picture img {
+            margin-bottom: 30px;
+        }
+        .footer-inner-login {
+            flex-direction: column;
+            align-items: center;
+        }
+        .footer-inner-login .footer-item {
+            max-width: 100%;
+            padding-bottom: 20px;
+        }
+    }
+    
+    @media(max-width: 800px) {
+        .main-image {
+            padding-top: 0;
+        }
+    }
+    
+    @media(max-width: 650px) {
+        .advantages-text {
+            font-size: 30px;
+            line-height: 40px;
+        }
+        .advantages-text span {
+            font-size: 22px;
+        }
+        .advantages-slash {
+            width: 50px;
+            margin-bottom: 0;
+        }
+        .icon-stopwatch::before,
+        .icon-list-numbered::before,
+        .icon-trophy::before {
+            font-size: 50px;
+        }
+        .who-we-need-content {
+            grid-template-columns: repeat(1, 1fr);
+        }
+        .footer-inner {
+            flex-direction: column;
+        }
+    }
+    
+    @media(max-width: 500px) {
+        .tab-item__link {
+            width: 300px;
+        }
+        .big-tab-item {
+            width: 300px !important;
+            height: auto;
+        }
+        .tab-item__lavel-row.media {
+            margin-bottom: 70px;
+        }
+    }
+    
+    @media(max-width: 400px) {
+        .advantages-slash {
+            display: none;
+        }
+        .advantages-text.purple {
+            margin-right: 20px;
+        }
+    }

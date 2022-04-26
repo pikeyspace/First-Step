@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?gji82b');
+    src: url('../fonts/icomoon.eot?gji82b#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?gji82b') format('truetype'), url('../fonts/icomoon.woff?gji82b') format('woff'), url('../fonts/icomoon.svg?gji82b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-coin-dollar:before {
+    content: "\e93b";
+    font-size: 100px;
+}
+
+.icon-stopwatch:before {
+    content: "\e952";
+    font-size: 100px;
+}
+
+.icon-tv:before {
+    content: "\e95b";
+    font-size: 100px;
+}
+
+.icon-trophy:before {
+    content: "\e99e";
+    font-size: 100px;
+}
+
+.icon-list-numbered:before {
+    content: "\e9b9";
+    font-size: 100px;
+}
+
+.icon-hipster:before {
+    content: "\e9f9";
+    font-size: 100px;
+}
+
+.icon-question:before {
+    content: "\ea09";
+    font-size: 100px;
+}
+
+.icon-terminal:before {
+    content: "\ea81";
+    font-size: 100px;
+}
